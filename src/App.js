@@ -56,7 +56,6 @@ class App extends React.Component {
   }
 
   loadUser = (data) => {
-    console.log(data);
     this.setState({
       user: {
         id: data.id,
@@ -83,7 +82,7 @@ class App extends React.Component {
   };
 
   displayFaceBox = (box) => {
-    console.log(box);
+
     this.setState({ box: box });
   };
 
@@ -119,7 +118,6 @@ class App extends React.Component {
         this.displayFaceBox(this.calculateFaceLocation(response));
       })
       .catch((err) => {
-        console.log(err);
       });
   };
 
