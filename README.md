@@ -1,4 +1,4 @@
-# The Color App
+# SMART BRAIN
 
 >SmartBrain an app with Face Recognition.
 
